@@ -1,0 +1,30 @@
+/* GYM OFFERS SECTION */
+
+.gym-offers {
+    position: relative;
+    background-image: url(/pics/photo-1571902943202-507ec2618e8f.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+.amenities-text {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    color: white;
+
+}
+
+.amenities-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.amenities-text h3 {
+    font-size: 25px;
+    margin-right: 60px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}

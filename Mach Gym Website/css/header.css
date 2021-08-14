@@ -1,0 +1,131 @@
+/* HEADER--GREEN */
+
+.green-nav {
+    background-color: var(--green);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.socials .fas {
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.socials .fas:hover,
+.socials .fab:hover {
+    color: var(--blue);
+}
+
+.fa-phone-alt,
+.fa-envelope,
+.fa-map-marker-alt {
+    margin-right: 10px;
+}
+
+header h3 {
+    margin-right: 20px;
+}
+
+    /* buttons */
+
+.btn {
+    cursor: pointer;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 15px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    background-color: white;
+    color: var(--blue);
+    transition: 0.3s;
+}
+
+.btn-white:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+.btn-blue {
+    background-color: var(--blue);
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: white;
+    color: var(--blue);
+}
+
+/* HEADER--WHITE */
+
+.white-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.white-nav.active {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 10px rgb(83, 83, 83);
+}
+
+    /* logo */
+
+.gym-logo {
+    height: 70px;
+    width: auto;
+    margin-left: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.gym-logo.active {
+    height: 40px;
+}
+
+    /* blue links */
+
+.header-links {
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    list-style-type: none;
+    transition: all .5s ease-in-out;
+}
+
+.header-links.active {
+    height: 65px;
+}
+
+.white-links {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.white-links:hover {
+    color: var(--green);
+}

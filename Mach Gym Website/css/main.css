@@ -1,0 +1,30 @@
+/* MAIN SECTION */
+
+.main {
+    background-image: url(/pics/main-background.jfif);
+    width: 100vw;
+    height: 120vh;
+    position: relative;
+}
+
+.inspirational-quote {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.inspirational-quote h1 {
+    margin: 5px;
+}
+
+.quote {
+    position: absolute;
+    top: 40%;
+    left: 24%;
+}
+
+.indent {
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
